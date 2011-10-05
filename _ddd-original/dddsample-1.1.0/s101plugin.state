@@ -1,0 +1,918 @@
+<?xml version="1.0"?>
+<structure101-builder version="1.0" format="state" vendor="headway" generated-at="Tue Oct 04 23:04:51 CEST 2011">
+  <builder-settings lastConnectedTo="1.0.0" includeExternals="true" diagramsTimeStamp="1312136352000" classPath="/Users/marcgrue/github/dci/dci-sample/_ddd-original/dddsample-1.1.0/target/classes:/Users/marcgrue/github/dci/dci-sample/_ddd-original/dddsample-1.1.0/target/test-classes" compilationPath="/Users/marcgrue/github/dci/dci-sample/_ddd-original/dddsample-1.1.0/target/classes:/Users/marcgrue/github/dci/dci-sample/_ddd-original/dddsample-1.1.0/target/test-classes:/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home/lib/tools.jar">
+    <s101plugin-properties>
+      <isEnabled value="true"/>
+      <onDemand value="false"/>
+      <repository value="file:/Users/marcgrue/repos/structure101/"/>
+      <project value="ddd-sample"/>
+      <snapshot value="(most recent)"/>
+      <violationsSeverity value="Warn"/>
+      <newViolationsSeverity value="Error"/>
+      <excludesEnabled value="false"/>
+      <excludesPaths value="test:"/>
+    </s101plugin-properties>
+    <excludes/>
+    <transformations/>
+  </builder-settings>
+  <graph>
+    <node st="3,t,t" id="1" rc="4" de="se/citerus/dddsample/domain/model/cargo/HandlingActivity" la="1315041011000"/>
+    <node st="3,t,t" id="2" rc="2" de="se/citerus/dddsample/interfaces/tracking/TrackCommandValidator" la="1315041011000"/>
+    <node st="3,t,t" id="3" rc="0" de="se/citerus/dddsample/domain/shared/experimental/DomainEvent" la="1315041011000"/>
+    <node st="3,t,f" id="4" rc="1" de="se/citerus/dddsample/domain/shared/experimental/EntitySupportTest" la="1315041013000"/>
+    <node st="3,t,t" id="5" rc="3" de="com/pathfinder/internal/GraphDAO" la="1315041011000"/>
+    <node st="3,t,t" id="6" rc="0" de="se/citerus/dddsample/domain/shared/experimental/ValueObject" la="1315041011000"/>
+    <node st="3,t,f" id="7" rc="1" de="se/citerus/dddsample/domain/shared/NotSpecificationTest" la="1315041013000"/>
+    <node st="3,t,t" id="8" rc="5" de="se/citerus/dddsample/infrastructure/persistence/hibernate/HibernateRepository" la="1315041011000"/>
+    <node st="3,t,f" id="9" rc="1" de="se/citerus/dddsample/application/HandlingEventServiceTest" la="1315041013000"/>
+    <node st="3,t,t" id="10" rc="2" de="se/citerus/dddsample/infrastructure/routing/ExternalRoutingService" la="1315041011000"/>
+    <node st="3,t,t" id="11" rc="1" de="se/citerus/dddsample/infrastructure/messaging/jms/JmsApplicationEventsImpl" la="1315041011000"/>
+    <node st="3,t,t" id="12" rc="3" de="se/citerus/dddsample/interfaces/handling/HandlingReportParser" la="1315041011000"/>
+    <node st="3,t,t" id="13" rc="6" de="se/citerus/dddsample/interfaces/booking/facade/dto/CargoRoutingDTO" la="1315041011000"/>
+    <node st="3,t,t" id="14" rc="6" de="se/citerus/dddsample/domain/model/voyage/CarrierMovement" la="1315041011000"/>
+    <node st="3,t,t" id="15" rc="3" de="se/citerus/dddsample/interfaces/booking/facade/BookingServiceFacade" la="1315041011000"/>
+    <node st="3,t,t" id="16" rc="5" de="se/citerus/dddsample/domain/model/cargo/RoutingStatus" la="1315041011000"/>
+    <node st="3,t,t" id="17" rc="2" de="com/aggregator/SubmitReport" la="1315041011000"/>
+    <node st="3,t,f" id="18" rc="1" de="se/citerus/dddsample/domain/model/voyage/VoyageNumberTest" la="1315041013000"/>
+    <node st="3,t,t" id="19" rc="16" de="se/citerus/dddsample/domain/shared/ValueObject" la="1315041011000"/>
+    <node st="3,t,t" id="20" rc="1" de="se/citerus/dddsample/infrastructure/messaging/jms/SimpleLoggingConsumer" la="1315041011000"/>
+    <node st="3,t,t" id="21" rc="4" de="se/citerus/dddsample/domain/service/RoutingService" la="1315041011000"/>
+    <node st="3,t,t" id="22" rc="1" de="se/citerus/dddsample/domain/shared/DomainEvent" la="1315041011000"/>
+    <node st="3,t,t" id="23" rc="2" de="com/aggregator/SubmitReportResponse" la="1315041011000"/>
+    <node st="3,t,t" id="24" rc="1" de="se/citerus/dddsample/infrastructure/messaging/jms/HandlingEventRegistrationAttemptConsumer" la="1315041011000"/>
+    <node st="3,t,t" id="25" rc="5" de="se/citerus/dddsample/domain/model/cargo/TransportStatus" la="1315041011000"/>
+    <node st="3,t,f" id="26" rc="1" de="se/citerus/dddsample/interfaces/booking/web/CargoAdminControllerTest" la="1315041013000"/>
+    <node st="3,t,f" id="27" rc="1" de="se/citerus/dddsample/domain/model/location/UnLocodeTest" la="1315041013000"/>
+    <node st="3,t,f" id="28" rc="1" de="se/citerus/dddsample/interfaces/booking/web/ItinerarySelectionCommandTest" la="1315041013000"/>
+    <node st="3,t,f" id="29" rc="1" de="se/citerus/dddsample/domain/model/cargo/DeliveryTest" la="1315041013000"/>
+    <node st="3,t,f" id="30" rc="1" de="se/citerus/dddsample/infrastructure/persistence/hibernate/LocationRepositoryTest" la="1315041013000"/>
+    <node st="3,t,f" id="31" rc="1" de="se/citerus/dddsample/domain/shared/AndSpecificationTest" la="1315041013000"/>
+    <node st="3,t,f" id="32" rc="4" de="se/citerus/dddsample/infrastructure/persistence/inmemory/LocationRepositoryInMem" la="1315041013000"/>
+    <node st="3,t,f" id="33" rc="1" de="se/citerus/dddsample/infrastructure/persistence/hibernate/CargoRepositoryTest" la="1315041013000"/>
+    <node st="3,t,f" id="34" rc="1" de="se/citerus/dddsample/domain/model/cargo/TrackingIdTest" la="1315041013000"/>
+    <node st="3,t,f" id="35" rc="1" de="se/citerus/dddsample/infrastructure/routing/ExternalRoutingServiceTest" la="1315041013000"/>
+    <node st="3,t,f" id="36" rc="1" de="se/citerus/dddsample/domain/model/handling/HandlingEventFactoryTest" la="1315041013000"/>
+    <node st="3,t,f" id="37" rc="3" de="se/citerus/dddsample/infrastructure/persistence/inmemory/CargoRepositoryInMem" la="1315041013000"/>
+    <node st="3,t,t" id="38" rc="31" de="se/citerus/dddsample/domain/model/voyage/VoyageNumber" la="1315041011000"/>
+    <node st="3,t,t" id="39" rc="34" de="se/citerus/dddsample/domain/model/location/UnLocode" la="1315041011000"/>
+    <node st="3,t,f" id="40" rc="1" de="se/citerus/dddsample/interfaces/tracking/TrackCommandValidatorTest" la="1315041013000"/>
+    <node st="3,t,t" id="41" rc="1" de="com/aggregator/ObjectFactory" la="1315041011000"/>
+    <node st="3,t,f" id="42" rc="1" de="se/citerus/dddsample/domain/model/voyage/CarrierMovementTest" la="1315041013000"/>
+    <node st="3,t,t" id="43" rc="22" de="se/citerus/dddsample/domain/model/location/SampleLocations" la="1315041011000"/>
+    <node st="3,t,f" id="44" rc="5" de="se/citerus/dddsample/infrastructure/persistence/hibernate/AbstractRepositoryTest" la="1315041013000"/>
+    <node st="3,t,t" id="45" rc="8" de="se/citerus/dddsample/application/ApplicationEvents" la="1315041011000"/>
+    <node st="3,t,t" id="46" rc="2" de="se/citerus/dddsample/domain/shared/experimental/Identity" la="1315041011000"/>
+    <node st="3,t,t" id="47" rc="3" de="se/citerus/dddsample/interfaces/booking/facade/internal/assembler/CargoRoutingDTOAssembler" la="1315041011000"/>
+    <node st="3,t,t" id="48" rc="1" de="com/aggregator/HandlingReportServiceService" la="1315041011000"/>
+    <node st="3,t,f" id="49" rc="1" de="se/citerus/dddsample/domain/model/cargo/RouteSpecificationTest" la="1315041013000"/>
+    <node st="3,t,t" id="50" rc="3" de="com/aggregator/HandlingReportErrors_Exception" la="1315041011000"/>
+    <node st="3,t,f" id="51" rc="1" de="se/citerus/dddsample/domain/model/voyage/VoyageTest" la="1315041013000"/>
+    <node st="3,t,t" id="52" rc="3" de="se/citerus/dddsample/application/impl/HandlingEventServiceImpl" la="1315041011000"/>
+    <node st="3,t,f" id="53" rc="4" de="se/citerus/dddsample/infrastructure/persistence/inmemory/VoyageRepositoryInMem" la="1315041013000"/>
+    <node st="3,t,f" id="54" rc="1" de="se/citerus/dddsample/domain/shared/OrSpecificationTest" la="1315041013000"/>
+    <node st="3,t,t" id="55" rc="2" de="se/citerus/dddsample/interfaces/tracking/CargoTrackingController" la="1315041011000"/>
+    <node st="3,t,t" id="56" rc="12" de="se/citerus/dddsample/domain/model/voyage/SampleVoyages" la="1315041011000"/>
+    <node st="3,t,t" id="57" rc="2" de="se/citerus/dddsample/domain/shared/experimental/ValueObjectSupport" la="1315041011000"/>
+    <node st="3,t,t" id="58" rc="4" de="com/aggregator/HandlingReportErrors" la="1315041011000"/>
+    <node st="3,t,t" id="59" rc="1" de="se/citerus/dddsample/interfaces/booking/facade/internal/BookingServiceFacadeImpl" la="1315041011000"/>
+    <node st="3,t,t" id="60" rc="4" de="se/citerus/dddsample/application/CargoInspectionService" la="1315041011000"/>
+    <node st="3,t,t" id="61" rc="16" de="se/citerus/dddsample/domain/model/cargo/Leg" la="1315041011000"/>
+    <node st="3,t,t" id="62" rc="2" de="se/citerus/dddsample/domain/shared/experimental/EntitySupport" la="1315041011000"/>
+    <node st="3,t,f" id="63" rc="1" de="se/citerus/dddsample/interfaces/booking/facade/internal/assembler/CargoRoutingDTOAssemblerTest" la="1315041013000"/>
+    <node st="3,t,f" id="64" rc="1" de="se/citerus/dddsample/interfaces/booking/facade/internal/assembler/ItineraryCandidateDTOAssemblerTest" la="1315041013000"/>
+    <node st="3,t,t" id="65" rc="5" de="se/citerus/dddsample/interfaces/tracking/TrackCommand" la="1315041011000"/>
+    <node st="3,t,f" id="66" rc="4" de="se/citerus/dddsample/domain/shared/AlwaysTrueSpec" la="1315041013000"/>
+    <node st="3,t,f" id="67" rc="1" de="se/citerus/dddsample/application/BookingServiceTest" la="1315041013000"/>
+    <node st="3,t,t" id="68" rc="6" de="com/aggregator/HandlingReport" la="1315041011000"/>
+    <node st="3,t,t" id="69" rc="3" de="se/citerus/dddsample/application/HandlingEventService" la="1315041011000"/>
+    <node st="3,t,t" id="70" rc="7" de="se/citerus/dddsample/application/util/DateTestUtil" la="1315041011000"/>
+    <node st="3,t,f" id="71" rc="3" de="se/citerus/dddsample/infrastructure/persistence/inmemory/HandlingEventRepositoryInMem" la="1315041013000"/>
+    <node st="3,t,t" id="72" rc="3" de="se/citerus/dddsample/domain/shared/Entity" la="1315041011000"/>
+    <node st="3,t,t" id="73" rc="3" de="se/citerus/dddsample/domain/model/handling/UnknownCargoException" la="1315041011000"/>
+    <node st="3,t,t" id="74" rc="2" de="com/pathfinder/internal/GraphTraversalServiceImpl" la="1315041011000"/>
+    <node st="3,t,t" id="75" rc="4" de="se/citerus/dddsample/interfaces/tracking/CargoTrackingViewAdapter" la="1315041011000"/>
+    <node st="3,t,t" id="76" rc="6" de="se/citerus/dddsample/interfaces/booking/facade/dto/LocationDTO" la="1315041011000"/>
+    <node st="3,t,t" id="77" rc="7" de="se/citerus/dddsample/interfaces/booking/facade/dto/LegDTO" la="1315041011000"/>
+    <node st="3,t,t" id="78" rc="1" de="se/citerus/dddsample/infrastructure/messaging/jms/CargoHandledConsumer" la="1315041011000"/>
+    <node st="3,t,t" id="79" rc="3" de="se/citerus/dddsample/interfaces/booking/web/RouteAssignmentCommand" la="1315041011000"/>
+    <node st="3,t,t" id="80" rc="7" de="se/citerus/dddsample/interfaces/handling/HandlingEventRegistrationAttempt" la="1315041011000"/>
+    <node st="3,t,t" id="81" rc="4" de="se/citerus/dddsample/domain/shared/DomainObjectUtils" la="1315041011000"/>
+    <node st="2,t,f" id="82" rc="1" de="se/citerus/dddsample/domain/model/cargo/ItineraryTest" la="1315041063000"/>
+    <node st="3,t,t" id="83" rc="1" de="se/citerus/dddsample/interfaces/handling/ws/HandlingReportServiceImpl" la="1315041011000"/>
+    <node st="3,t,t" id="84" rc="3" de="se/citerus/dddsample/interfaces/booking/facade/internal/assembler/ItineraryCandidateDTOAssembler" la="1315041011000"/>
+    <node st="3,t,t" id="85" rc="15" de="se/citerus/dddsample/domain/model/handling/HandlingHistory" la="1315041011000"/>
+    <node st="3,t,t" id="86" rc="3" de="se/citerus/dddsample/application/impl/BookingServiceImpl" la="1315041011000"/>
+    <node st="3,t,t" id="87" rc="3" de="se/citerus/dddsample/domain/model/handling/UnknownLocationException" la="1315041011000"/>
+    <node st="3,t,t" id="88" rc="2" de="se/citerus/dddsample/domain/shared/experimental/Entity" la="1315041011000"/>
+    <node st="3,t,f" id="89" rc="1" de="se/citerus/dddsample/interfaces/tracking/CargoTrackingControllerTest" la="1315041013000"/>
+    <node st="3,t,t" id="90" rc="7" de="se/citerus/dddsample/domain/shared/AbstractSpecification" la="1315041011000"/>
+    <node st="3,t,f" id="91" rc="1" de="se/citerus/dddsample/domain/model/cargo/LegTest" la="1315041013000"/>
+    <node st="3,t,t" id="92" rc="2" de="com/aggregator/HandlingReportService" la="1315041011000"/>
+    <node st="3,t,t" id="93" rc="3" de="se/citerus/dddsample/application/BookingService" la="1315041011000"/>
+    <node st="3,t,t" id="94" rc="31" de="se/citerus/dddsample/domain/model/cargo/Cargo" la="1315041011000"/>
+    <node st="3,t,t" id="95" rc="1" de="se/citerus/dddsample/infrastructure/persistence/hibernate/VoyageRepositoryHibernate" la="1315041011000"/>
+    <node st="3,t,t" id="96" rc="7" de="se/citerus/dddsample/domain/model/handling/HandlingEventFactory" la="1315041011000"/>
+    <node st="3,t,t" id="97" rc="3" de="se/citerus/dddsample/application/util/SampleDataGenerator" la="1315041011000"/>
+    <node st="3,t,t" id="98" rc="15" de="se/citerus/dddsample/domain/model/cargo/CargoRepository" la="1315041011000"/>
+    <node st="3,t,t" id="99" rc="14" de="se/citerus/dddsample/domain/model/voyage/VoyageRepository" la="1315041011000"/>
+    <node st="3,t,f" id="100" rc="1" de="se/citerus/dddsample/domain/model/cargo/CargoTest" la="1315041013000"/>
+    <node st="3,t,t" id="101" rc="13" de="se/citerus/dddsample/domain/model/handling/HandlingEventRepository" la="1315041011000"/>
+    <node st="3,t,t" id="102" rc="1" de="se/citerus/dddsample/interfaces/booking/web/BookingDispatcherServlet" la="1315041011000"/>
+    <node st="3,t,t" id="103" rc="6" de="se/citerus/dddsample/interfaces/booking/facade/dto/RouteCandidateDTO" la="1315041011000"/>
+    <node st="3,t,f" id="104" rc="4" de="se/citerus/dddsample/domain/shared/AlwaysFalseSpec" la="1315041013000"/>
+    <node st="3,t,t" id="105" rc="2" de="se/citerus/dddsample/interfaces/booking/web/RegistrationCommand" la="1315041011000"/>
+    <node st="3,t,t" id="106" rc="4" de="com/pathfinder/api/TransitEdge" la="1315041011000"/>
+    <node st="3,t,t" id="107" rc="3" de="com/pathfinder/api/GraphTraversalService" la="1315041011000"/>
+    <node st="3,t,t" id="108" rc="1" de="se/citerus/dddsample/infrastructure/persistence/hibernate/LocationRepositoryHibernate" la="1315041011000"/>
+    <node st="3,t,t" id="109" rc="9" de="se/citerus/dddsample/domain/model/handling/CannotCreateHandlingEventException" la="1315041011000"/>
+    <node st="3,t,t" id="110" rc="8" de="se/citerus/dddsample/domain/shared/Specification" la="1315041011000"/>
+    <node st="3,t,t" id="111" rc="3" de="se/citerus/dddsample/domain/shared/AndSpecification" la="1315041011000"/>
+    <node st="3,t,t" id="112" rc="3" de="se/citerus/dddsample/domain/model/voyage/Schedule" la="1315041011000"/>
+    <node st="3,t,f" id="113" rc="1" de="se/citerus/dddsample/infrastructure/persistence/hibernate/CarrierMovementRepositoryTest" la="1315041013000"/>
+    <node st="3,t,t" id="114" rc="1" de="se/citerus/dddsample/infrastructure/persistence/hibernate/HandlingEventRepositoryHibernate" la="1315041011000"/>
+    <node st="3,t,f" id="115" rc="1" de="se/citerus/dddsample/domain/shared/experimental/ValueObjectSupportTest" la="1315041013000"/>
+    <node st="3,t,f" id="116" rc="1" de="se/citerus/dddsample/interfaces/tracking/CargoTrackingViewAdapterTest" la="1315041013000"/>
+    <node st="3,t,t" id="117" rc="3" de="se/citerus/dddsample/domain/shared/NotSpecification" la="1315041011000"/>
+    <node st="3,t,t" id="118" rc="45" de="se/citerus/dddsample/domain/model/cargo/TrackingId" la="1315041011000"/>
+    <node st="3,t,f" id="119" rc="1" de="se/citerus/dddsample/interfaces/booking/facade/internal/assembler/LocationDTOAssemblerTest" la="1315041013000"/>
+    <node st="3,t,f" id="120" rc="1" de="se/citerus/dddsample/domain/model/handling/HandlingEventTest" la="1315041013000"/>
+    <node st="3,t,t" id="121" rc="45" de="se/citerus/dddsample/domain/model/location/Location" la="1315041011000"/>
+    <node st="3,t,t" id="122" rc="2" de="se/citerus/dddsample/application/impl/CargoInspectionServiceImpl" la="1315041011000"/>
+    <node st="3,t,f" id="123" rc="1" de="se/citerus/dddsample/domain/model/location/LocationTest" la="1315041013000"/>
+    <node st="3,t,t" id="124" rc="1" de="se/citerus/dddsample/infrastructure/persistence/hibernate/CargoRepositoryHibernate" la="1315041011000"/>
+    <node st="3,t,t" id="125" rc="23" de="se/citerus/dddsample/domain/model/cargo/RouteSpecification" la="1315041011000"/>
+    <node st="3,t,t" id="126" rc="8" de="se/citerus/dddsample/domain/model/cargo/Delivery" la="1315041011000"/>
+    <node st="3,t,f" id="127" rc="1" de="se/citerus/dddsample/domain/model/voyage/ScheduleTest" la="1315041013000"/>
+    <node st="3,t,t" id="128" rc="3" de="se/citerus/dddsample/interfaces/booking/facade/internal/assembler/LocationDTOAssembler" la="1315041011000"/>
+    <node st="3,t,t" id="129" rc="4" de="com/pathfinder/api/TransitPath" la="1315041011000"/>
+    <node st="3,t,f" id="130" rc="0" de="com/aggregator/package-info" la="1315041011000"/>
+    <node st="3,t,t" id="131" rc="31" de="se/citerus/dddsample/domain/model/voyage/Voyage" la="1315041011000"/>
+    <node st="3,t,t" id="132" rc="3" de="se/citerus/dddsample/domain/shared/OrSpecification" la="1315041011000"/>
+    <node st="3,t,f" id="133" rc="1" de="se/citerus/dddsample/infrastructure/persistence/hibernate/HandlingEventRepositoryTest" la="1315041013000"/>
+    <node st="3,t,t" id="134" rc="21" de="se/citerus/dddsample/domain/model/cargo/Itinerary" la="1315041011000"/>
+    <node st="3,t,f" id="135" rc="1" de="se/citerus/dddsample/domain/model/handling/HandlingHistoryTest" la="1315041013000"/>
+    <node st="3,t,f" id="136" rc="1" de="se/citerus/dddsample/scenario/CargoLifecycleScenarioTest" la="1315041013000"/>
+    <node st="3,t,t" id="137" rc="2" de="se/citerus/dddsample/interfaces/booking/web/CargoAdminController" la="1315041011000"/>
+    <node st="3,t,f" id="138" rc="2" de="se/citerus/dddsample/infrastructure/messaging/stub/SynchronousApplicationEventsStub" la="1315041013000"/>
+    <node st="3,t,t" id="139" rc="1" de="se/citerus/dddsample/interfaces/handling/file/UploadDirectoryScanner" la="1315041011000"/>
+    <node st="3,t,t" id="140" rc="17" de="se/citerus/dddsample/domain/model/location/LocationRepository" la="1315041011000"/>
+    <node st="3,t,t" id="141" rc="3" de="se/citerus/dddsample/domain/model/handling/UnknownVoyageException" la="1315041011000"/>
+    <node st="3,t,t" id="142" rc="31" de="se/citerus/dddsample/domain/model/handling/HandlingEvent" la="1315041011000"/>
+    <edge st="3,t,f" fr="1" to="1"/>
+    <edge st="3,t,t" fr="1" to="19"/>
+    <edge st="3,t,t" fr="1" to="121"/>
+    <edge st="3,t,t" fr="1" to="142"/>
+    <edge st="3,t,t" fr="1" to="131"/>
+    <edge st="3,t,f" fr="2" to="2"/>
+    <edge st="3,t,t" fr="2" to="65"/>
+    <edge st="3,t,f" fr="4" to="88"/>
+    <edge st="3,t,f" fr="4" to="4"/>
+    <edge st="3,t,f" fr="4" to="46"/>
+    <edge st="3,t,f" fr="4" to="62"/>
+    <edge st="3,t,f" fr="5" to="5"/>
+    <edge st="3,t,f" fr="7" to="117"/>
+    <edge st="3,t,f" fr="7" to="104"/>
+    <edge st="3,t,f" fr="7" to="110"/>
+    <edge st="3,t,f" fr="7" to="7"/>
+    <edge st="3,t,f" fr="7" to="66"/>
+    <edge st="3,t,f" fr="8" to="8"/>
+    <edge st="3,t,f" fr="9" to="125"/>
+    <edge st="3,t,f" fr="9" to="52"/>
+    <edge st="3,t,f" fr="9" to="38"/>
+    <edge st="3,t,f" fr="9" to="56"/>
+    <edge st="3,t,f" fr="9" to="94"/>
+    <edge st="3,t,f" fr="9" to="39"/>
+    <edge st="3,t,f" fr="9" to="96"/>
+    <edge st="3,t,f" fr="9" to="98"/>
+    <edge st="3,t,f" fr="9" to="131"/>
+    <edge st="3,t,f" fr="9" to="9"/>
+    <edge st="3,t,f" fr="9" to="43"/>
+    <edge st="3,t,f" fr="9" to="99"/>
+    <edge st="3,t,f" fr="9" to="101"/>
+    <edge st="3,t,f" fr="9" to="118"/>
+    <edge st="3,t,f" fr="9" to="45"/>
+    <edge st="3,t,f" fr="9" to="121"/>
+    <edge st="3,t,f" fr="9" to="140"/>
+    <edge st="3,t,f" fr="9" to="142"/>
+    <edge st="3,t,t" fr="10" to="125"/>
+    <edge st="3,t,t" fr="10" to="21"/>
+    <edge st="3,t,t" fr="10" to="38"/>
+    <edge st="3,t,t" fr="10" to="39"/>
+    <edge st="3,t,t" fr="10" to="129"/>
+    <edge st="3,t,t" fr="10" to="131"/>
+    <edge st="3,t,t" fr="10" to="134"/>
+    <edge st="3,t,f" fr="10" to="10"/>
+    <edge st="3,t,t" fr="10" to="99"/>
+    <edge st="3,t,t" fr="10" to="61"/>
+    <edge st="3,t,t" fr="10" to="106"/>
+    <edge st="3,t,t" fr="10" to="121"/>
+    <edge st="3,t,t" fr="10" to="107"/>
+    <edge st="3,t,t" fr="10" to="140"/>
+    <edge st="3,t,t" fr="11" to="80"/>
+    <edge st="3,t,t" fr="11" to="118"/>
+    <edge st="3,t,f" fr="11" to="11"/>
+    <edge st="3,t,t" fr="11" to="94"/>
+    <edge st="3,t,t" fr="11" to="45"/>
+    <edge st="3,t,t" fr="11" to="142"/>
+    <edge st="3,t,t" fr="12" to="68"/>
+    <edge st="3,t,t" fr="12" to="118"/>
+    <edge st="3,t,t" fr="12" to="38"/>
+    <edge st="3,t,f" fr="12" to="12"/>
+    <edge st="3,t,t" fr="12" to="39"/>
+    <edge st="3,t,t" fr="12" to="142"/>
+    <edge st="3,t,f" fr="13" to="13"/>
+    <edge st="3,t,t" fr="13" to="77"/>
+    <edge st="3,t,t" fr="14" to="19"/>
+    <edge st="3,t,f" fr="14" to="14"/>
+    <edge st="3,t,t" fr="14" to="121"/>
+    <edge st="3,t,t" fr="15" to="103"/>
+    <edge st="3,t,t" fr="15" to="13"/>
+    <edge st="3,t,t" fr="15" to="76"/>
+    <edge st="3,t,t" fr="16" to="19"/>
+    <edge st="3,t,f" fr="16" to="16"/>
+    <edge st="3,t,t" fr="17" to="68"/>
+    <edge st="3,t,f" fr="17" to="17"/>
+    <edge st="3,t,f" fr="18" to="18"/>
+    <edge st="3,t,f" fr="20" to="20"/>
+    <edge st="3,t,t" fr="21" to="125"/>
+    <edge st="3,t,t" fr="21" to="134"/>
+    <edge st="3,t,f" fr="23" to="23"/>
+    <edge st="3,t,t" fr="24" to="69"/>
+    <edge st="3,t,t" fr="24" to="80"/>
+    <edge st="3,t,t" fr="24" to="118"/>
+    <edge st="3,t,t" fr="24" to="38"/>
+    <edge st="3,t,t" fr="24" to="39"/>
+    <edge st="3,t,f" fr="24" to="24"/>
+    <edge st="3,t,t" fr="24" to="142"/>
+    <edge st="3,t,t" fr="25" to="19"/>
+    <edge st="3,t,f" fr="25" to="25"/>
+    <edge st="3,t,f" fr="26" to="137"/>
+    <edge st="3,t,f" fr="26" to="15"/>
+    <edge st="3,t,f" fr="26" to="26"/>
+    <edge st="3,t,f" fr="27" to="27"/>
+    <edge st="3,t,f" fr="27" to="39"/>
+    <edge st="3,t,f" fr="28" to="28"/>
+    <edge st="3,t,f" fr="28" to="79"/>
+    <edge st="3,t,f" fr="29" to="29"/>
+    <edge st="3,t,f" fr="29" to="125"/>
+    <edge st="3,t,f" fr="29" to="43"/>
+    <edge st="3,t,f" fr="29" to="118"/>
+    <edge st="3,t,f" fr="29" to="94"/>
+    <edge st="3,t,f" fr="29" to="121"/>
+    <edge st="3,t,f" fr="30" to="44"/>
+    <edge st="3,t,f" fr="30" to="30"/>
+    <edge st="3,t,f" fr="30" to="39"/>
+    <edge st="3,t,f" fr="30" to="121"/>
+    <edge st="3,t,f" fr="30" to="140"/>
+    <edge st="3,t,f" fr="31" to="31"/>
+    <edge st="3,t,f" fr="31" to="104"/>
+    <edge st="3,t,f" fr="31" to="110"/>
+    <edge st="3,t,f" fr="31" to="111"/>
+    <edge st="3,t,f" fr="31" to="66"/>
+    <edge st="3,t,f" fr="32" to="43"/>
+    <edge st="3,t,f" fr="32" to="32"/>
+    <edge st="3,t,f" fr="32" to="39"/>
+    <edge st="3,t,f" fr="32" to="121"/>
+    <edge st="3,t,f" fr="32" to="140"/>
+    <edge st="3,t,f" fr="33" to="125"/>
+    <edge st="3,t,f" fr="33" to="38"/>
+    <edge st="3,t,f" fr="33" to="56"/>
+    <edge st="3,t,f" fr="33" to="126"/>
+    <edge st="3,t,f" fr="33" to="94"/>
+    <edge st="3,t,f" fr="33" to="39"/>
+    <edge st="3,t,f" fr="33" to="97"/>
+    <edge st="3,t,f" fr="33" to="98"/>
+    <edge st="3,t,f" fr="33" to="131"/>
+    <edge st="3,t,f" fr="33" to="134"/>
+    <edge st="3,t,f" fr="33" to="43"/>
+    <edge st="3,t,f" fr="33" to="44"/>
+    <edge st="3,t,f" fr="33" to="99"/>
+    <edge st="3,t,f" fr="33" to="118"/>
+    <edge st="3,t,f" fr="33" to="101"/>
+    <edge st="3,t,f" fr="33" to="61"/>
+    <edge st="3,t,f" fr="33" to="85"/>
+    <edge st="3,t,f" fr="33" to="121"/>
+    <edge st="3,t,f" fr="33" to="33"/>
+    <edge st="3,t,f" fr="33" to="140"/>
+    <edge st="3,t,f" fr="33" to="142"/>
+    <edge st="3,t,f" fr="34" to="118"/>
+    <edge st="3,t,f" fr="34" to="34"/>
+    <edge st="3,t,f" fr="35" to="125"/>
+    <edge st="3,t,f" fr="35" to="38"/>
+    <edge st="3,t,f" fr="35" to="56"/>
+    <edge st="3,t,f" fr="35" to="94"/>
+    <edge st="3,t,f" fr="35" to="39"/>
+    <edge st="3,t,f" fr="35" to="5"/>
+    <edge st="3,t,f" fr="35" to="74"/>
+    <edge st="3,t,f" fr="35" to="131"/>
+    <edge st="3,t,f" fr="35" to="43"/>
+    <edge st="3,t,f" fr="35" to="134"/>
+    <edge st="3,t,f" fr="35" to="99"/>
+    <edge st="3,t,f" fr="35" to="10"/>
+    <edge st="3,t,f" fr="35" to="118"/>
+    <edge st="3,t,f" fr="35" to="32"/>
+    <edge st="3,t,f" fr="35" to="61"/>
+    <edge st="3,t,f" fr="35" to="121"/>
+    <edge st="3,t,f" fr="35" to="107"/>
+    <edge st="3,t,f" fr="35" to="35"/>
+    <edge st="3,t,f" fr="35" to="140"/>
+    <edge st="3,t,f" fr="36" to="36"/>
+    <edge st="3,t,f" fr="36" to="125"/>
+    <edge st="3,t,f" fr="36" to="53"/>
+    <edge st="3,t,f" fr="36" to="38"/>
+    <edge st="3,t,f" fr="36" to="56"/>
+    <edge st="3,t,f" fr="36" to="73"/>
+    <edge st="3,t,f" fr="36" to="94"/>
+    <edge st="3,t,f" fr="36" to="39"/>
+    <edge st="3,t,f" fr="36" to="96"/>
+    <edge st="3,t,f" fr="36" to="98"/>
+    <edge st="3,t,f" fr="36" to="131"/>
+    <edge st="3,t,f" fr="36" to="43"/>
+    <edge st="3,t,f" fr="36" to="99"/>
+    <edge st="3,t,f" fr="36" to="118"/>
+    <edge st="3,t,f" fr="36" to="32"/>
+    <edge st="3,t,f" fr="36" to="121"/>
+    <edge st="3,t,f" fr="36" to="87"/>
+    <edge st="3,t,f" fr="36" to="140"/>
+    <edge st="3,t,f" fr="36" to="141"/>
+    <edge st="3,t,f" fr="36" to="142"/>
+    <edge st="3,t,f" fr="37" to="125"/>
+    <edge st="3,t,f" fr="37" to="43"/>
+    <edge st="3,t,f" fr="37" to="37"/>
+    <edge st="3,t,f" fr="37" to="101"/>
+    <edge st="3,t,f" fr="37" to="118"/>
+    <edge st="3,t,f" fr="37" to="94"/>
+    <edge st="3,t,f" fr="37" to="85"/>
+    <edge st="3,t,f" fr="37" to="121"/>
+    <edge st="3,t,f" fr="37" to="98"/>
+    <edge st="3,t,t" fr="38" to="19"/>
+    <edge st="3,t,f" fr="38" to="38"/>
+    <edge st="3,t,t" fr="39" to="19"/>
+    <edge st="3,t,f" fr="39" to="39"/>
+    <edge st="3,t,f" fr="40" to="2"/>
+    <edge st="3,t,f" fr="40" to="65"/>
+    <edge st="3,t,f" fr="40" to="40"/>
+    <edge st="3,t,t" fr="41" to="68"/>
+    <edge st="3,t,f" fr="41" to="41"/>
+    <edge st="3,t,t" fr="41" to="23"/>
+    <edge st="3,t,t" fr="41" to="17"/>
+    <edge st="3,t,t" fr="41" to="58"/>
+    <edge st="3,t,f" fr="42" to="42"/>
+    <edge st="3,t,f" fr="42" to="43"/>
+    <edge st="3,t,f" fr="42" to="121"/>
+    <edge st="3,t,f" fr="42" to="14"/>
+    <edge st="3,t,f" fr="43" to="43"/>
+    <edge st="3,t,t" fr="43" to="39"/>
+    <edge st="3,t,t" fr="43" to="121"/>
+    <edge st="3,t,f" fr="44" to="44"/>
+    <edge st="3,t,f" fr="44" to="101"/>
+    <edge st="3,t,f" fr="44" to="96"/>
+    <edge st="3,t,f" fr="44" to="97"/>
+    <edge st="3,t,t" fr="45" to="80"/>
+    <edge st="3,t,t" fr="45" to="94"/>
+    <edge st="3,t,t" fr="45" to="142"/>
+    <edge st="3,t,t" fr="47" to="125"/>
+    <edge st="3,t,t" fr="47" to="38"/>
+    <edge st="3,t,t" fr="47" to="126"/>
+    <edge st="3,t,t" fr="47" to="94"/>
+    <edge st="3,t,t" fr="47" to="39"/>
+    <edge st="3,t,t" fr="47" to="131"/>
+    <edge st="3,t,t" fr="47" to="134"/>
+    <edge st="3,t,t" fr="47" to="118"/>
+    <edge st="3,t,t" fr="47" to="61"/>
+    <edge st="3,t,t" fr="47" to="13"/>
+    <edge st="3,t,t" fr="47" to="121"/>
+    <edge st="3,t,t" fr="47" to="16"/>
+    <edge st="3,t,f" fr="47" to="47"/>
+    <edge st="3,t,f" fr="48" to="48"/>
+    <edge st="3,t,t" fr="48" to="92"/>
+    <edge st="3,t,f" fr="49" to="49"/>
+    <edge st="3,t,f" fr="49" to="70"/>
+    <edge st="3,t,f" fr="49" to="125"/>
+    <edge st="3,t,f" fr="49" to="134"/>
+    <edge st="3,t,f" fr="49" to="43"/>
+    <edge st="3,t,f" fr="49" to="38"/>
+    <edge st="3,t,f" fr="49" to="61"/>
+    <edge st="3,t,f" fr="49" to="121"/>
+    <edge st="3,t,f" fr="49" to="131"/>
+    <edge st="3,t,f" fr="50" to="50"/>
+    <edge st="3,t,t" fr="50" to="58"/>
+    <edge st="3,t,f" fr="51" to="51"/>
+    <edge st="3,t,t" fr="52" to="69"/>
+    <edge st="3,t,f" fr="52" to="52"/>
+    <edge st="3,t,t" fr="52" to="101"/>
+    <edge st="3,t,t" fr="52" to="118"/>
+    <edge st="3,t,t" fr="52" to="38"/>
+    <edge st="3,t,t" fr="52" to="109"/>
+    <edge st="3,t,t" fr="52" to="45"/>
+    <edge st="3,t,t" fr="52" to="39"/>
+    <edge st="3,t,t" fr="52" to="96"/>
+    <edge st="3,t,t" fr="52" to="142"/>
+    <edge st="3,t,f" fr="53" to="99"/>
+    <edge st="3,t,f" fr="53" to="53"/>
+    <edge st="3,t,f" fr="53" to="56"/>
+    <edge st="3,t,f" fr="53" to="38"/>
+    <edge st="3,t,f" fr="53" to="131"/>
+    <edge st="3,t,f" fr="54" to="132"/>
+    <edge st="3,t,f" fr="54" to="54"/>
+    <edge st="3,t,f" fr="54" to="104"/>
+    <edge st="3,t,f" fr="54" to="110"/>
+    <edge st="3,t,f" fr="54" to="66"/>
+    <edge st="3,t,f" fr="55" to="55"/>
+    <edge st="3,t,t" fr="55" to="101"/>
+    <edge st="3,t,t" fr="55" to="118"/>
+    <edge st="3,t,t" fr="55" to="94"/>
+    <edge st="3,t,t" fr="55" to="85"/>
+    <edge st="3,t,t" fr="55" to="65"/>
+    <edge st="3,t,t" fr="55" to="98"/>
+    <edge st="3,t,t" fr="55" to="75"/>
+    <edge st="3,t,t" fr="56" to="70"/>
+    <edge st="3,t,t" fr="56" to="43"/>
+    <edge st="3,t,f" fr="56" to="56"/>
+    <edge st="3,t,t" fr="56" to="38"/>
+    <edge st="3,t,t" fr="56" to="121"/>
+    <edge st="3,t,t" fr="56" to="14"/>
+    <edge st="3,t,t" fr="56" to="112"/>
+    <edge st="3,t,t" fr="56" to="131"/>
+    <edge st="3,t,t" fr="57" to="19"/>
+    <edge st="3,t,f" fr="57" to="57"/>
+    <edge st="3,t,f" fr="58" to="58"/>
+    <edge st="3,t,t" fr="59" to="93"/>
+    <edge st="3,t,t" fr="59" to="94"/>
+    <edge st="3,t,t" fr="59" to="39"/>
+    <edge st="3,t,t" fr="59" to="128"/>
+    <edge st="3,t,t" fr="59" to="98"/>
+    <edge st="3,t,t" fr="59" to="76"/>
+    <edge st="3,t,f" fr="59" to="59"/>
+    <edge st="3,t,t" fr="59" to="134"/>
+    <edge st="3,t,t" fr="59" to="99"/>
+    <edge st="3,t,t" fr="59" to="118"/>
+    <edge st="3,t,t" fr="59" to="103"/>
+    <edge st="3,t,t" fr="59" to="13"/>
+    <edge st="3,t,t" fr="59" to="84"/>
+    <edge st="3,t,t" fr="59" to="15"/>
+    <edge st="3,t,t" fr="59" to="140"/>
+    <edge st="3,t,t" fr="59" to="47"/>
+    <edge st="3,t,t" fr="60" to="118"/>
+    <edge st="3,t,t" fr="61" to="19"/>
+    <edge st="3,t,f" fr="61" to="61"/>
+    <edge st="3,t,t" fr="61" to="121"/>
+    <edge st="3,t,t" fr="61" to="131"/>
+    <edge st="3,t,t" fr="62" to="88"/>
+    <edge st="3,t,t" fr="62" to="46"/>
+    <edge st="3,t,f" fr="62" to="62"/>
+    <edge st="3,t,f" fr="63" to="125"/>
+    <edge st="3,t,f" fr="63" to="56"/>
+    <edge st="3,t,f" fr="63" to="94"/>
+    <edge st="3,t,f" fr="63" to="77"/>
+    <edge st="3,t,f" fr="63" to="131"/>
+    <edge st="3,t,f" fr="63" to="134"/>
+    <edge st="3,t,f" fr="63" to="43"/>
+    <edge st="3,t,f" fr="63" to="118"/>
+    <edge st="3,t,f" fr="63" to="61"/>
+    <edge st="3,t,f" fr="63" to="13"/>
+    <edge st="3,t,f" fr="63" to="121"/>
+    <edge st="3,t,f" fr="63" to="63"/>
+    <edge st="3,t,f" fr="63" to="47"/>
+    <edge st="3,t,f" fr="64" to="53"/>
+    <edge st="3,t,f" fr="64" to="56"/>
+    <edge st="3,t,f" fr="64" to="39"/>
+    <edge st="3,t,f" fr="64" to="77"/>
+    <edge st="3,t,f" fr="64" to="131"/>
+    <edge st="3,t,f" fr="64" to="43"/>
+    <edge st="3,t,f" fr="64" to="134"/>
+    <edge st="3,t,f" fr="64" to="99"/>
+    <edge st="3,t,f" fr="64" to="103"/>
+    <edge st="3,t,f" fr="64" to="61"/>
+    <edge st="3,t,f" fr="64" to="84"/>
+    <edge st="3,t,f" fr="64" to="121"/>
+    <edge st="3,t,f" fr="64" to="64"/>
+    <edge st="3,t,f" fr="64" to="140"/>
+    <edge st="3,t,f" fr="65" to="65"/>
+    <edge st="3,t,f" fr="66" to="90"/>
+    <edge st="3,t,f" fr="66" to="66"/>
+    <edge st="3,t,f" fr="67" to="43"/>
+    <edge st="3,t,f" fr="67" to="21"/>
+    <edge st="3,t,f" fr="67" to="118"/>
+    <edge st="3,t,f" fr="67" to="94"/>
+    <edge st="3,t,f" fr="67" to="39"/>
+    <edge st="3,t,f" fr="67" to="121"/>
+    <edge st="3,t,f" fr="67" to="86"/>
+    <edge st="3,t,f" fr="67" to="98"/>
+    <edge st="3,t,f" fr="67" to="140"/>
+    <edge st="3,t,f" fr="67" to="67"/>
+    <edge st="3,t,f" fr="68" to="68"/>
+    <edge st="3,t,t" fr="69" to="118"/>
+    <edge st="3,t,t" fr="69" to="38"/>
+    <edge st="3,t,t" fr="69" to="109"/>
+    <edge st="3,t,t" fr="69" to="39"/>
+    <edge st="3,t,t" fr="69" to="142"/>
+    <edge st="3,t,f" fr="70" to="70"/>
+    <edge st="3,t,f" fr="71" to="71"/>
+    <edge st="3,t,f" fr="71" to="101"/>
+    <edge st="3,t,f" fr="71" to="118"/>
+    <edge st="3,t,f" fr="71" to="94"/>
+    <edge st="3,t,f" fr="71" to="85"/>
+    <edge st="3,t,f" fr="71" to="142"/>
+    <edge st="3,t,t" fr="73" to="118"/>
+    <edge st="3,t,t" fr="73" to="109"/>
+    <edge st="3,t,f" fr="73" to="73"/>
+    <edge st="3,t,t" fr="74" to="106"/>
+    <edge st="3,t,f" fr="74" to="74"/>
+    <edge st="3,t,t" fr="74" to="107"/>
+    <edge st="3,t,t" fr="74" to="5"/>
+    <edge st="3,t,t" fr="74" to="129"/>
+    <edge st="3,t,t" fr="75" to="1"/>
+    <edge st="3,t,t" fr="75" to="125"/>
+    <edge st="3,t,t" fr="75" to="134"/>
+    <edge st="3,t,t" fr="75" to="118"/>
+    <edge st="3,t,t" fr="75" to="38"/>
+    <edge st="3,t,t" fr="75" to="94"/>
+    <edge st="3,t,t" fr="75" to="126"/>
+    <edge st="3,t,t" fr="75" to="121"/>
+    <edge st="3,t,f" fr="75" to="75"/>
+    <edge st="3,t,t" fr="75" to="25"/>
+    <edge st="3,t,t" fr="75" to="131"/>
+    <edge st="3,t,t" fr="75" to="142"/>
+    <edge st="3,t,f" fr="76" to="76"/>
+    <edge st="3,t,f" fr="77" to="77"/>
+    <edge st="3,t,f" fr="78" to="78"/>
+    <edge st="3,t,t" fr="78" to="60"/>
+    <edge st="3,t,t" fr="78" to="118"/>
+    <edge st="3,t,f" fr="79" to="79"/>
+    <edge st="3,t,f" fr="80" to="80"/>
+    <edge st="3,t,t" fr="80" to="118"/>
+    <edge st="3,t,t" fr="80" to="38"/>
+    <edge st="3,t,t" fr="80" to="39"/>
+    <edge st="3,t,t" fr="80" to="142"/>
+    <edge st="3,t,f" fr="81" to="81"/>
+    <edge st="3,t,f" fr="82" to="125"/>
+    <edge st="3,t,f" fr="82" to="43"/>
+    <edge st="3,t,f" fr="82" to="134"/>
+    <edge st="3,t,f" fr="82" to="118"/>
+    <edge st="3,t,f" fr="82" to="38"/>
+    <edge st="3,t,f" fr="82" to="94"/>
+    <edge st="3,t,f" fr="82" to="61"/>
+    <edge st="3,t,f" fr="82" to="82"/>
+    <edge st="3,t,f" fr="82" to="121"/>
+    <edge st="3,t,f" fr="82" to="14"/>
+    <edge st="3,t,f" fr="82" to="131"/>
+    <edge st="3,t,f" fr="82" to="142"/>
+    <edge st="3,t,t" fr="83" to="68"/>
+    <edge st="3,t,t" fr="83" to="50"/>
+    <edge st="3,t,t" fr="83" to="80"/>
+    <edge st="3,t,t" fr="83" to="92"/>
+    <edge st="3,t,t" fr="83" to="118"/>
+    <edge st="3,t,t" fr="83" to="38"/>
+    <edge st="3,t,f" fr="83" to="83"/>
+    <edge st="3,t,t" fr="83" to="45"/>
+    <edge st="3,t,t" fr="83" to="12"/>
+    <edge st="3,t,t" fr="83" to="39"/>
+    <edge st="3,t,t" fr="83" to="58"/>
+    <edge st="3,t,t" fr="83" to="142"/>
+    <edge st="3,t,t" fr="84" to="134"/>
+    <edge st="3,t,t" fr="84" to="99"/>
+    <edge st="3,t,t" fr="84" to="38"/>
+    <edge st="3,t,t" fr="84" to="103"/>
+    <edge st="3,t,t" fr="84" to="61"/>
+    <edge st="3,t,f" fr="84" to="84"/>
+    <edge st="3,t,t" fr="84" to="39"/>
+    <edge st="3,t,t" fr="84" to="121"/>
+    <edge st="3,t,t" fr="84" to="140"/>
+    <edge st="3,t,t" fr="84" to="77"/>
+    <edge st="3,t,t" fr="84" to="131"/>
+    <edge st="3,t,t" fr="85" to="19"/>
+    <edge st="3,t,f" fr="85" to="85"/>
+    <edge st="3,t,t" fr="85" to="142"/>
+    <edge st="3,t,t" fr="86" to="125"/>
+    <edge st="3,t,t" fr="86" to="134"/>
+    <edge st="3,t,t" fr="86" to="21"/>
+    <edge st="3,t,t" fr="86" to="118"/>
+    <edge st="3,t,t" fr="86" to="93"/>
+    <edge st="3,t,t" fr="86" to="94"/>
+    <edge st="3,t,t" fr="86" to="39"/>
+    <edge st="3,t,t" fr="86" to="121"/>
+    <edge st="3,t,f" fr="86" to="86"/>
+    <edge st="3,t,t" fr="86" to="98"/>
+    <edge st="3,t,t" fr="86" to="140"/>
+    <edge st="3,t,t" fr="87" to="109"/>
+    <edge st="3,t,t" fr="87" to="39"/>
+    <edge st="3,t,f" fr="87" to="87"/>
+    <edge st="3,t,f" fr="89" to="89"/>
+    <edge st="3,t,f" fr="89" to="71"/>
+    <edge st="3,t,f" fr="89" to="37"/>
+    <edge st="3,t,f" fr="89" to="55"/>
+    <edge st="3,t,f" fr="89" to="101"/>
+    <edge st="3,t,f" fr="89" to="65"/>
+    <edge st="3,t,f" fr="89" to="75"/>
+    <edge st="3,t,f" fr="89" to="98"/>
+    <edge st="3,t,t" fr="90" to="132"/>
+    <edge st="3,t,f" fr="90" to="90"/>
+    <edge st="3,t,t" fr="90" to="117"/>
+    <edge st="3,t,t" fr="90" to="110"/>
+    <edge st="3,t,t" fr="90" to="111"/>
+    <edge st="3,t,f" fr="91" to="91"/>
+    <edge st="3,t,f" fr="91" to="61"/>
+    <edge st="3,t,f" fr="91" to="121"/>
+    <edge st="3,t,f" fr="91" to="131"/>
+    <edge st="3,t,t" fr="92" to="68"/>
+    <edge st="3,t,t" fr="92" to="50"/>
+    <edge st="3,t,t" fr="93" to="134"/>
+    <edge st="3,t,t" fr="93" to="118"/>
+    <edge st="3,t,t" fr="93" to="39"/>
+    <edge st="3,t,t" fr="94" to="125"/>
+    <edge st="3,t,t" fr="94" to="134"/>
+    <edge st="3,t,t" fr="94" to="72"/>
+    <edge st="3,t,t" fr="94" to="118"/>
+    <edge st="3,t,f" fr="94" to="94"/>
+    <edge st="3,t,t" fr="94" to="126"/>
+    <edge st="3,t,t" fr="94" to="81"/>
+    <edge st="3,t,t" fr="94" to="85"/>
+    <edge st="3,t,t" fr="94" to="121"/>
+    <edge st="3,t,t" fr="95" to="99"/>
+    <edge st="3,t,t" fr="95" to="38"/>
+    <edge st="3,t,f" fr="95" to="95"/>
+    <edge st="3,t,t" fr="95" to="8"/>
+    <edge st="3,t,t" fr="95" to="131"/>
+    <edge st="3,t,t" fr="96" to="109"/>
+    <edge st="3,t,t" fr="96" to="38"/>
+    <edge st="3,t,t" fr="96" to="94"/>
+    <edge st="3,t,t" fr="96" to="73"/>
+    <edge st="3,t,t" fr="96" to="39"/>
+    <edge st="3,t,f" fr="96" to="96"/>
+    <edge st="3,t,t" fr="96" to="98"/>
+    <edge st="3,t,t" fr="96" to="131"/>
+    <edge st="3,t,t" fr="96" to="99"/>
+    <edge st="3,t,t" fr="96" to="118"/>
+    <edge st="3,t,t" fr="96" to="121"/>
+    <edge st="3,t,t" fr="96" to="140"/>
+    <edge st="3,t,t" fr="96" to="87"/>
+    <edge st="3,t,t" fr="96" to="142"/>
+    <edge st="3,t,t" fr="96" to="141"/>
+    <edge st="3,t,t" fr="97" to="125"/>
+    <edge st="3,t,t" fr="97" to="70"/>
+    <edge st="3,t,t" fr="97" to="38"/>
+    <edge st="3,t,t" fr="97" to="109"/>
+    <edge st="3,t,t" fr="97" to="56"/>
+    <edge st="3,t,t" fr="97" to="94"/>
+    <edge st="3,t,t" fr="97" to="39"/>
+    <edge st="3,t,t" fr="97" to="96"/>
+    <edge st="3,t,f" fr="97" to="97"/>
+    <edge st="3,t,t" fr="97" to="98"/>
+    <edge st="3,t,t" fr="97" to="131"/>
+    <edge st="3,t,t" fr="97" to="134"/>
+    <edge st="3,t,t" fr="97" to="43"/>
+    <edge st="3,t,t" fr="97" to="99"/>
+    <edge st="3,t,t" fr="97" to="101"/>
+    <edge st="3,t,t" fr="97" to="118"/>
+    <edge st="3,t,t" fr="97" to="61"/>
+    <edge st="3,t,t" fr="97" to="85"/>
+    <edge st="3,t,t" fr="97" to="121"/>
+    <edge st="3,t,t" fr="97" to="140"/>
+    <edge st="3,t,t" fr="97" to="142"/>
+    <edge st="3,t,t" fr="98" to="118"/>
+    <edge st="3,t,t" fr="98" to="94"/>
+    <edge st="3,t,t" fr="99" to="38"/>
+    <edge st="3,t,t" fr="99" to="131"/>
+    <edge st="3,t,f" fr="100" to="70"/>
+    <edge st="3,t,f" fr="100" to="125"/>
+    <edge st="3,t,f" fr="100" to="38"/>
+    <edge st="3,t,f" fr="100" to="94"/>
+    <edge st="3,t,f" fr="100" to="126"/>
+    <edge st="3,t,f" fr="100" to="25"/>
+    <edge st="3,t,f" fr="100" to="131"/>
+    <edge st="3,t,f" fr="100" to="43"/>
+    <edge st="3,t,f" fr="100" to="134"/>
+    <edge st="3,t,f" fr="100" to="100"/>
+    <edge st="3,t,f" fr="100" to="118"/>
+    <edge st="3,t,f" fr="100" to="61"/>
+    <edge st="3,t,f" fr="100" to="85"/>
+    <edge st="3,t,f" fr="100" to="121"/>
+    <edge st="3,t,f" fr="100" to="16"/>
+    <edge st="3,t,f" fr="100" to="142"/>
+    <edge st="3,t,t" fr="101" to="118"/>
+    <edge st="3,t,t" fr="101" to="85"/>
+    <edge st="3,t,t" fr="101" to="142"/>
+    <edge st="3,t,f" fr="102" to="102"/>
+    <edge st="3,t,f" fr="103" to="103"/>
+    <edge st="3,t,t" fr="103" to="77"/>
+    <edge st="3,t,f" fr="104" to="90"/>
+    <edge st="3,t,f" fr="104" to="104"/>
+    <edge st="3,t,f" fr="105" to="105"/>
+    <edge st="3,t,f" fr="106" to="106"/>
+    <edge st="3,t,t" fr="107" to="129"/>
+    <edge st="3,t,f" fr="108" to="108"/>
+    <edge st="3,t,t" fr="108" to="39"/>
+    <edge st="3,t,t" fr="108" to="121"/>
+    <edge st="3,t,t" fr="108" to="140"/>
+    <edge st="3,t,t" fr="108" to="8"/>
+    <edge st="3,t,f" fr="109" to="109"/>
+    <edge st="3,t,f" fr="110" to="110"/>
+    <edge st="3,t,t" fr="111" to="90"/>
+    <edge st="3,t,t" fr="111" to="110"/>
+    <edge st="3,t,f" fr="111" to="111"/>
+    <edge st="3,t,t" fr="112" to="19"/>
+    <edge st="3,t,t" fr="112" to="14"/>
+    <edge st="3,t,f" fr="112" to="112"/>
+    <edge st="3,t,f" fr="113" to="44"/>
+    <edge st="3,t,f" fr="113" to="99"/>
+    <edge st="3,t,f" fr="113" to="38"/>
+    <edge st="3,t,f" fr="113" to="113"/>
+    <edge st="3,t,f" fr="113" to="131"/>
+    <edge st="3,t,f" fr="114" to="114"/>
+    <edge st="3,t,t" fr="114" to="101"/>
+    <edge st="3,t,t" fr="114" to="118"/>
+    <edge st="3,t,t" fr="114" to="85"/>
+    <edge st="3,t,t" fr="114" to="8"/>
+    <edge st="3,t,t" fr="114" to="142"/>
+    <edge st="3,t,f" fr="115" to="115"/>
+    <edge st="3,t,f" fr="115" to="19"/>
+    <edge st="3,t,f" fr="115" to="57"/>
+    <edge st="3,t,f" fr="116" to="125"/>
+    <edge st="3,t,f" fr="116" to="43"/>
+    <edge st="3,t,f" fr="116" to="116"/>
+    <edge st="3,t,f" fr="116" to="118"/>
+    <edge st="3,t,f" fr="116" to="56"/>
+    <edge st="3,t,f" fr="116" to="94"/>
+    <edge st="3,t,f" fr="116" to="85"/>
+    <edge st="3,t,f" fr="116" to="121"/>
+    <edge st="3,t,f" fr="116" to="75"/>
+    <edge st="3,t,f" fr="116" to="131"/>
+    <edge st="3,t,f" fr="116" to="142"/>
+    <edge st="3,t,t" fr="117" to="90"/>
+    <edge st="3,t,f" fr="117" to="117"/>
+    <edge st="3,t,t" fr="117" to="110"/>
+    <edge st="3,t,t" fr="118" to="19"/>
+    <edge st="3,t,f" fr="118" to="118"/>
+    <edge st="3,t,f" fr="119" to="43"/>
+    <edge st="3,t,f" fr="119" to="119"/>
+    <edge st="3,t,f" fr="119" to="121"/>
+    <edge st="3,t,f" fr="119" to="128"/>
+    <edge st="3,t,f" fr="119" to="76"/>
+    <edge st="3,t,f" fr="120" to="125"/>
+    <edge st="3,t,f" fr="120" to="43"/>
+    <edge st="3,t,f" fr="120" to="118"/>
+    <edge st="3,t,f" fr="120" to="56"/>
+    <edge st="3,t,f" fr="120" to="94"/>
+    <edge st="3,t,f" fr="120" to="120"/>
+    <edge st="3,t,f" fr="120" to="121"/>
+    <edge st="3,t,f" fr="120" to="131"/>
+    <edge st="3,t,f" fr="120" to="142"/>
+    <edge st="3,t,t" fr="121" to="72"/>
+    <edge st="3,t,t" fr="121" to="39"/>
+    <edge st="3,t,f" fr="121" to="121"/>
+    <edge st="3,t,t" fr="122" to="60"/>
+    <edge st="3,t,t" fr="122" to="101"/>
+    <edge st="3,t,t" fr="122" to="118"/>
+    <edge st="3,t,t" fr="122" to="94"/>
+    <edge st="3,t,t" fr="122" to="126"/>
+    <edge st="3,t,t" fr="122" to="45"/>
+    <edge st="3,t,t" fr="122" to="85"/>
+    <edge st="3,t,f" fr="122" to="122"/>
+    <edge st="3,t,t" fr="122" to="98"/>
+    <edge st="3,t,f" fr="123" to="39"/>
+    <edge st="3,t,f" fr="123" to="121"/>
+    <edge st="3,t,f" fr="123" to="123"/>
+    <edge st="3,t,f" fr="124" to="124"/>
+    <edge st="3,t,t" fr="124" to="118"/>
+    <edge st="3,t,t" fr="124" to="94"/>
+    <edge st="3,t,t" fr="124" to="98"/>
+    <edge st="3,t,t" fr="124" to="8"/>
+    <edge st="3,t,f" fr="125" to="125"/>
+    <edge st="3,t,t" fr="125" to="90"/>
+    <edge st="3,t,t" fr="125" to="19"/>
+    <edge st="3,t,t" fr="125" to="134"/>
+    <edge st="3,t,t" fr="125" to="121"/>
+    <edge st="3,t,t" fr="126" to="125"/>
+    <edge st="3,t,t" fr="126" to="1"/>
+    <edge st="3,t,t" fr="126" to="19"/>
+    <edge st="3,t,f" fr="126" to="126"/>
+    <edge st="3,t,t" fr="126" to="25"/>
+    <edge st="3,t,t" fr="126" to="131"/>
+    <edge st="3,t,t" fr="126" to="134"/>
+    <edge st="3,t,t" fr="126" to="61"/>
+    <edge st="3,t,t" fr="126" to="81"/>
+    <edge st="3,t,t" fr="126" to="85"/>
+    <edge st="3,t,t" fr="126" to="121"/>
+    <edge st="3,t,t" fr="126" to="16"/>
+    <edge st="3,t,t" fr="126" to="142"/>
+    <edge st="3,t,f" fr="127" to="127"/>
+    <edge st="3,t,t" fr="128" to="39"/>
+    <edge st="3,t,t" fr="128" to="121"/>
+    <edge st="3,t,f" fr="128" to="128"/>
+    <edge st="3,t,t" fr="128" to="76"/>
+    <edge st="3,t,t" fr="129" to="106"/>
+    <edge st="3,t,f" fr="129" to="129"/>
+    <edge st="3,t,t" fr="131" to="72"/>
+    <edge st="3,t,t" fr="131" to="38"/>
+    <edge st="3,t,t" fr="131" to="121"/>
+    <edge st="3,t,t" fr="131" to="14"/>
+    <edge st="3,t,t" fr="131" to="112"/>
+    <edge st="3,t,f" fr="131" to="131"/>
+    <edge st="3,t,f" fr="132" to="132"/>
+    <edge st="3,t,t" fr="132" to="90"/>
+    <edge st="3,t,t" fr="132" to="110"/>
+    <edge st="3,t,f" fr="133" to="133"/>
+    <edge st="3,t,f" fr="133" to="44"/>
+    <edge st="3,t,f" fr="133" to="118"/>
+    <edge st="3,t,f" fr="133" to="101"/>
+    <edge st="3,t,f" fr="133" to="94"/>
+    <edge st="3,t,f" fr="133" to="85"/>
+    <edge st="3,t,f" fr="133" to="39"/>
+    <edge st="3,t,f" fr="133" to="121"/>
+    <edge st="3,t,f" fr="133" to="98"/>
+    <edge st="3,t,f" fr="133" to="140"/>
+    <edge st="3,t,f" fr="133" to="142"/>
+    <edge st="3,t,f" fr="134" to="134"/>
+    <edge st="3,t,t" fr="134" to="19"/>
+    <edge st="3,t,t" fr="134" to="61"/>
+    <edge st="3,t,t" fr="134" to="121"/>
+    <edge st="3,t,t" fr="134" to="142"/>
+    <edge st="3,t,t" fr="134" to="131"/>
+    <edge st="3,t,f" fr="135" to="70"/>
+    <edge st="3,t,f" fr="135" to="125"/>
+    <edge st="3,t,f" fr="135" to="43"/>
+    <edge st="3,t,f" fr="135" to="135"/>
+    <edge st="3,t,f" fr="135" to="118"/>
+    <edge st="3,t,f" fr="135" to="38"/>
+    <edge st="3,t,f" fr="135" to="94"/>
+    <edge st="3,t,f" fr="135" to="85"/>
+    <edge st="3,t,f" fr="135" to="121"/>
+    <edge st="3,t,f" fr="135" to="131"/>
+    <edge st="3,t,f" fr="135" to="142"/>
+    <edge st="3,t,f" fr="136" to="69"/>
+    <edge st="3,t,f" fr="136" to="70"/>
+    <edge st="3,t,f" fr="136" to="1"/>
+    <edge st="3,t,f" fr="136" to="71"/>
+    <edge st="3,t,f" fr="136" to="37"/>
+    <edge st="3,t,f" fr="136" to="109"/>
+    <edge st="3,t,f" fr="136" to="38"/>
+    <edge st="3,t,f" fr="136" to="39"/>
+    <edge st="3,t,f" fr="136" to="43"/>
+    <edge st="3,t,f" fr="136" to="118"/>
+    <edge st="3,t,f" fr="136" to="45"/>
+    <edge st="3,t,f" fr="136" to="121"/>
+    <edge st="3,t,f" fr="136" to="86"/>
+    <edge st="3,t,f" fr="136" to="16"/>
+    <edge st="3,t,f" fr="136" to="122"/>
+    <edge st="3,t,f" fr="136" to="125"/>
+    <edge st="3,t,f" fr="136" to="52"/>
+    <edge st="3,t,f" fr="136" to="21"/>
+    <edge st="3,t,f" fr="136" to="53"/>
+    <edge st="3,t,f" fr="136" to="56"/>
+    <edge st="3,t,f" fr="136" to="93"/>
+    <edge st="3,t,f" fr="136" to="126"/>
+    <edge st="3,t,f" fr="136" to="94"/>
+    <edge st="3,t,f" fr="136" to="96"/>
+    <edge st="3,t,f" fr="136" to="98"/>
+    <edge st="3,t,f" fr="136" to="25"/>
+    <edge st="3,t,f" fr="136" to="131"/>
+    <edge st="3,t,f" fr="136" to="134"/>
+    <edge st="3,t,f" fr="136" to="136"/>
+    <edge st="3,t,f" fr="136" to="99"/>
+    <edge st="3,t,f" fr="136" to="101"/>
+    <edge st="3,t,f" fr="136" to="138"/>
+    <edge st="3,t,f" fr="136" to="60"/>
+    <edge st="3,t,f" fr="136" to="32"/>
+    <edge st="3,t,f" fr="136" to="61"/>
+    <edge st="3,t,f" fr="136" to="140"/>
+    <edge st="3,t,f" fr="136" to="142"/>
+    <edge st="3,t,t" fr="137" to="79"/>
+    <edge st="3,t,f" fr="137" to="137"/>
+    <edge st="3,t,t" fr="137" to="103"/>
+    <edge st="3,t,t" fr="137" to="13"/>
+    <edge st="3,t,t" fr="137" to="105"/>
+    <edge st="3,t,t" fr="137" to="15"/>
+    <edge st="3,t,t" fr="137" to="76"/>
+    <edge st="3,t,t" fr="137" to="77"/>
+    <edge st="3,t,f" fr="138" to="80"/>
+    <edge st="3,t,f" fr="138" to="138"/>
+    <edge st="3,t,f" fr="138" to="60"/>
+    <edge st="3,t,f" fr="138" to="118"/>
+    <edge st="3,t,f" fr="138" to="94"/>
+    <edge st="3,t,f" fr="138" to="45"/>
+    <edge st="3,t,f" fr="138" to="142"/>
+    <edge st="3,t,t" fr="139" to="80"/>
+    <edge st="3,t,t" fr="139" to="118"/>
+    <edge st="3,t,f" fr="139" to="139"/>
+    <edge st="3,t,t" fr="139" to="38"/>
+    <edge st="3,t,t" fr="139" to="45"/>
+    <edge st="3,t,t" fr="139" to="12"/>
+    <edge st="3,t,t" fr="139" to="39"/>
+    <edge st="3,t,t" fr="139" to="142"/>
+    <edge st="3,t,t" fr="140" to="39"/>
+    <edge st="3,t,t" fr="140" to="121"/>
+    <edge st="3,t,t" fr="141" to="109"/>
+    <edge st="3,t,t" fr="141" to="38"/>
+    <edge st="3,t,f" fr="141" to="141"/>
+    <edge st="3,t,t" fr="142" to="19"/>
+    <edge st="3,t,t" fr="142" to="118"/>
+    <edge st="3,t,t" fr="142" to="22"/>
+    <edge st="3,t,t" fr="142" to="38"/>
+    <edge st="3,t,t" fr="142" to="94"/>
+    <edge st="3,t,t" fr="142" to="81"/>
+    <edge st="3,t,t" fr="142" to="121"/>
+    <edge st="3,t,f" fr="142" to="142"/>
+    <edge st="3,t,t" fr="142" to="131"/>
+  </graph>
+</structure101-builder>
