@@ -1,6 +1,6 @@
 # DCI sample
 
-Repository for [DCI](http://en.wikipedia.org/wiki/Data,_Context,_and_Interaction) ports of the [[DDD sample application|http://dddsample.sourceforge.net/]]. Contributors can upload their implementations (full or partial) here and discussions naturally takes place in:
+Repository for [DCI](http://en.wikipedia.org/wiki/Data,_Context,_and_Interaction) ports of the [DDD sample application](http://dddsample.sourceforge.net/). Contributors can upload their implementations (full or partial) here and discussions naturally takes place in:
 
 * [object-composition](http://groups.google.com/group/object-composition/topics?hl=en) - Tutorial discussions on DCI.
 * [dci-evolution](http://groups.google.com/group/dci-evolution/topics?hl=en) - Forum for people to discuss, clarify, and evolve the paradigm (all can read - members can write).
