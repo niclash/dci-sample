@@ -101,15 +101,15 @@ public class RegisterHandlingEvent extends Context
                 Voyage voyage = null;
 
 
-// Step 1 - Find Cargo from tracking id string
-try
-{
-    trackingId = uow.get( Cargo.class, c.trackingIdString ).trackingId().get();
-}
-catch (NoSuchEntityException e)
-{
-    throw new UnknownCargoException( c.eventData );
-}
+                // Step 1 - Find Cargo from tracking id string
+                try
+                {
+                    trackingId = uow.get( Cargo.class, c.trackingIdString ).trackingId().get();
+                }
+                catch (NoSuchEntityException e)
+                {
+                    throw new UnknownCargoException( c.eventData );
+                }
 
 
                 // Step 2 - Find Location from UnLocode string
