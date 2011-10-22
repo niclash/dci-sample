@@ -171,11 +171,6 @@
             <artifactId>wicket-stateless</artifactId>
             <version>1.5.0</version>
         </dependency>
-        <dependency>
-            <groupId>com.jolira</groupId>
-            <artifactId>wicket-stateless-parent</artifactId>
-            <version>1.5.0</version>
-        </dependency>
 
     </dependencies>
 
