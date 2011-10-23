@@ -38,6 +38,7 @@
     </modules>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <version.qi4j>1.4.1</version.qi4j>
         <version.wicket>1.5.1</version.wicket>
         <version.slf4j>1.6.0</version.slf4j>
