@@ -2,5 +2,5 @@ target/
 dcisample_a/target/
 dcisample_b/target/
 .idea/
-.idea/**
 */*.iml
+s101plugin*
